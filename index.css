@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+} 
+h3{
+    margin-bottom: 0;
+}
+.container {
+    width: 100%;
+    min-width: 240px;
+    max-width: 540px;
+
+}
+#site-header {
+    padding: 10px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("./images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke
+}
+
+/* -------- MEALS BEGIN -------- */
+.meal-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meal-img img {
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+}
+#addBtn {
+    outline: none;
+    border: 2px #ccc6 solid;
+    background: white;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px 14px;
+}
+.meals-container {
+    display: flex;
+    align-content: center;
+    padding: 20px 30px;
+    height: 125px;
+}
+hr {
+    margin: 0 auto;
+    border: 1px #ccc solid;
+    width: 80%;
+}
+.meal-add {
+    margin-left:auto;
+    display: flex;
+}
+#addBtn {
+    margin: auto;
+    cursor: pointer;
+    transition: transform .2s;
+}
+#addBtn:hover {
+     transform: scale(1.15); 
+}
+#ingredients {
+    font-size: 13px;
+    color: grey;
+}
+#price{
+    font-weight: 500;
+} 
+#name {
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+/* -------- MEALS END -------- */
+
+/* -------- ORDERS BEGIN -------- */
+.order-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 50px;
+    height: 30px;
+}
+#order-price {
+    margin-left: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300
+}
+#order-name {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#your-order-text {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#order-remove {
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: gray
+}
+#total-price-container {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+#total-price-text {
+    font-size: 18px;
+}
+#complete-order-container {
+    padding: 0px 50px;
+}
+#complete-order-buton {
+    width: 100%;
+    padding: 15px 0px;
+    background: #15DC99;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    color: whitesmoke;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s background cubic-bezier(0.215, 0.610, 0.355, 1)
+}
+
+#complete-order-buton:hover {
+    background: #0D845C;
+}
+#order-price {
+    font-weight: 500;
+}
+#total-price {
+    font-weight: 500;
+}
+
+/* -------- ORDERS END -------- */
+
+/* -------- ORDER MODAL BEGIN -------- */
+
+#modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+#order-modal {
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 420px;
+    width: 350px;
+    outline: 1px rgb(198, 198, 198, 0.5) solid;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: whitesmoke;
+    color: #222831;
+    display: none;
+}
+
+#order-modal form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 20px;
+}
+#order-modal form input{
+    padding: 10px 15px;
+    border:1px gray solid;
+    border-radius: 5px;
+}
+#form-header-text {
+    font-size: 24px;
+    text-align: center;
+}
+#payBtn {
+    width: 100%;
+    padding: 15px 0px;
+    background: #15DC99;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: whitesmoke;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s background cubic-bezier(0.215, 0.610, 0.355, 1)
+}
+
+#payBtn:hover {
+    background: #0D845C;
+}
+
+#close-order-modal-img {
+    width: 24px;
+    margin-left: auto;
+    cursor: pointer
+}
+
+/* -------- PAYMENT BEGIN -------- */
+
+#thank-you-message {
+    background: #ECFDF3;
+    margin: 30px 40px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #0B583F;
+}
+
+/* -------- PAYMENT BEGIN -------- */
