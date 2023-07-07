@@ -1,4 +1,4 @@
-# coc2c43b98b5fbc5d29496921
+# Little Restaurant Order App
 
 Quick start:
 
