@@ -1,5 +1,7 @@
 # Little Restaurant Order App
 
+<a target="_blank" href="https://main--spectacular-souffle-e6f736.netlify.app/">Live Preview</a>
+
 Quick start:
 
 ```
