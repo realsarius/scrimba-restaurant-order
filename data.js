@@ -5,7 +5,7 @@ export const menuArray = [
         uuid: "8d92e68c-200a-488b-816c-23aa9d236e11",
         price: 14,
         emoji: "🍕",
-        img: "./images/pizza.png",
+        img: "https://raw.githubusercontent.com/realsarius/scrimba-restaurant-order/main/images/pizza.png",
     },
     {
         name: "Hamburger",
@@ -13,7 +13,7 @@ export const menuArray = [
         price: 12,
         emoji: "🍔",
         uuid: "ca41aed1-65e9-4b27-a7a8-edb6bbac4255",
-        img: "./images/hamburger.png",
+        img: "https://raw.githubusercontent.com/realsarius/scrimba-restaurant-order/main/images/hamburger.png",
     },
         {
         name: "Beer",
@@ -21,6 +21,6 @@ export const menuArray = [
         price: 12,
         emoji: "🍺",
         uuid: "7c798121-1d07-44ce-a9e0-1f3585a4f755",
-        img: "./images/beer.png",
+        img: "https://raw.githubusercontent.com/realsarius/scrimba-restaurant-order/main/images/beer.png",
     }
 ]
